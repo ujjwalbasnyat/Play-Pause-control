@@ -13,8 +13,10 @@ function App() {
   
   if(nextisPlaying){
     ref.current.play();
+    console.log("playing")
   }else{
     ref.current.pause();
+    console.log("pause")
   }
 }
 
